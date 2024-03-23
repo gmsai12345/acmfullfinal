@@ -24,8 +24,9 @@ const Home = (props) => {
                 <a className="bodySmall" href='https://acmwebfinal.vercel.app/PortFolioOptimization' target="_blank" >PortFolio Optimizations</a>
                 <a href='https://acmwebfinal.vercel.app/stocks' target="_blank" className="home-nav22 bodySmall" >Market Trends</a>
                 <a href='https://acmwebfinal.vercel.app/finance-news' target="_blank" className="home-nav32 bodySmall">News &amp; Events</a>
-                <a href='https://acmwebfinal.vercel.app/Stock-Recommender' target="_blank" className="home-nav42 bodySmall">Decision-Making</a>
-                <a href='https://acmwebfinal.vercel.app/ask-ai' target="_blank" className="home-nav52 bodySmall">Robo-Advisory</a>
+                <a href='https://acmwebfinal.vercel.app/Stock-Recommender' target="_blank" className="home-nav42 bodySmall">Stock Recommender
+</a>
+                <a href='https://acmwebfinal.vercel.app/ask-ai' target="_blank" className="home-nav52 bodySmall">Ask Our Chatbot</a>
               </nav>
               <div className="home-buttons">
                 <button className="home-login buttonFlat">Login</button>
