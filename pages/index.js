@@ -271,7 +271,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        {/* <div className="home-pricing">
+        <div className="home-pricing">
           <div className="pricingContainer">
             <div className="home-container04">
               <span className="overline">
@@ -425,7 +425,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div> 
         <div className="home-banner">
           <div className="bannerContainer home-banner1">
             <h1 className="home-banner-heading heading2">
