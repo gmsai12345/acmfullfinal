@@ -5,6 +5,7 @@ import FeatureCard from '../components/feature-card'
 import Question1 from '../components/question1'
 
 const Home = (props) => {
+ 
   return (
     <>
       <div className="home-container">
@@ -20,11 +21,11 @@ const Home = (props) => {
             <span className="logo">Stock.AI</span>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
-                <span className="bodySmall">Home</span>
-                <a href='https://acmwebfinal.vercel.app/stocks' className="home-nav22 bodySmall" >Market Trends</a>
-                <a href='https://acmwebfinal.vercel.app/finance-news' className="home-nav32 bodySmall">News &amp; Events</a>
-                <a href='https://acmwebfinal.vercel.app/Stock-Recommender' className="home-nav42 bodySmall">Decision-Making</a>
-                <a href='https://acmwebfinal.vercel.app/ask-ai' className="home-nav52 bodySmall">Robo-Advisory</a>
+                <a className="bodySmall" href='https://acmwebfinal.vercel.app/PortFolioOptimization' target="_blank" >PortFolio Optimizations</a>
+                <a href='https://acmwebfinal.vercel.app/stocks' target="_blank" className="home-nav22 bodySmall" >Market Trends</a>
+                <a href='https://acmwebfinal.vercel.app/finance-news' target="_blank" className="home-nav32 bodySmall">News &amp; Events</a>
+                <a href='https://acmwebfinal.vercel.app/Stock-Recommender' target="_blank" className="home-nav42 bodySmall">Decision-Making</a>
+                <a href='https://acmwebfinal.vercel.app/ask-ai' target="_blank" className="home-nav52 bodySmall">Robo-Advisory</a>
               </nav>
               <div className="home-buttons">
                 <button className="home-login buttonFlat">Login</button>
@@ -53,13 +54,13 @@ const Home = (props) => {
                   </div>
                 </div>
                 <nav className="home-links1">
-                  <span  className="home-nav121 bodySmall">Home</span>
-                  <a href='https://acmwebfinal.vercel.app/stocks' className="home-nav221 bodySmall">Market Trends</a>
-                  <a  href='https://acmwebfinal.vercel.app/finance-news' className="home-nav321 bodySmall">
+                  <a  className="home-nav121 bodySmall" href='https://acmwebfinal.vercel.app/PortFolioOptimization' target="_blank">PortFolio Optimizations</a>
+                  <a href='https://acmwebfinal.vercel.app/stocks' target="_blank" className="home-nav221 bodySmall">Market Trends</a>
+                  <a  href='https://acmwebfinal.vercel.app/finance-news' target="_blank" className="home-nav321 bodySmall">
                     News &amp; Events
                   </a>
-                  <a href='https://acmwebfinal.vercel.app/Stock-Recommender' className="home-nav421 bodySmall">Decision-Making</a>
-                  <a href='https://acmwebfinal.vercel.app/ask-ai' className="home-nav521 bodySmall">Robo-Advisory</a>
+                  <a href='https://acmwebfinal.vercel.app/Stock-Recommender' target="_blank" className="home-nav421 bodySmall">Decision-Making</a>
+                  <a href='https://acmwebfinal.vercel.app/ask-ai' target="_blank" className="home-nav521 bodySmall">Robo-Advisory</a>
                 </nav>
                 <div className="home-buttons1">
                   <button className="buttonFlat">Login</button>
@@ -251,19 +252,20 @@ const Home = (props) => {
               <div className="home-container03">
                 <FeatureCard
                   heading="Real-Time Market Analytics"
-                  subHeading="Get instant insights on market trends and news to make informed decisions"
+                  subHeading=" a platform delivering instantaneous market analysis, news updates, and event tracking. Asset managers gain swift access to crucial data, enabling agile decision-making. Integrated with robo-advisory platforms, RealTimeInsight personalizes recommendations based on client profiles, financial goals, and risk appetite. This synergy ensures timely, tailored investment strategies, empowering both asset managers and clients in navigating volatile markets with confidence."
                 ></FeatureCard>
                 <FeatureCard
-                  heading="Event Tracking"
-                  subHeading="Stay updated on relevant events that impact asset values and market movements"
+                  heading="Real-Time Events Tracking"
+                  subHeading=" 
+                  Real-Time Events Tracking is a cutting-edge feature of our stock market app, offering instantaneous analytics on market trends, news updates, and event tracking. Asset managers gain immediate access to vital data, enabling swift decision-making. Integrated seamlessly with robo-advisory platforms, Real-Time Events Tracking delivers personalized recommendations tailored to individual client profiles, financial objectives, and risk tolerance. This empowers asset managers to make informed decisions and optimize investment strategies in response to dynamic market events."
                 ></FeatureCard>
                 <FeatureCard
-                  heading="Quick Decision-Making"
-                  subHeading="Enable asset managers to react swiftly to market changes for better outcomes"
+                  heading="Real-Time Decision-Making"
+                  subHeading="In our RealTimeInsight platform, we employ cutting-edge specialized bots designed specifically for real-time portfolio optimizations. These bots utilize advanced algorithms to continuously analyze market data and identify opportunities for portfolio enhancement. Additionally, they interact with AI-powered systems to address queries and uncertainties promptly, providing asset managers with the information they need to make swift, informed decisions. Moreover, our platform offers personalized stock recommendations tailored to each client's unique investment objectives and risk tolerance, further enhancing the effectiveness of real-time decision-making processes."
                 ></FeatureCard>
                 <FeatureCard
-                  heading="Personalized Recommendations"
-                  subHeading="Tailor investment suggestions based on individual profiles, goals, and risk preferences"
+                  heading="Personalized Recommendations & AI-Assistance"
+                  subHeading="we've implemented a groundbreaking approach to personalized recommendations and AI-assisted decision-making. Our system employs sophisticated algorithms that dynamically adapt to individual client profiles, financial goals, and risk tolerances. These algorithms interact seamlessly with AI-powered assistants, providing asset managers with real-time insights and guidance. Through this innovative combination, asset managers can optimize portfolio performance, address uncertainties, and capitalize on market opportunities with unparalleled precision and efficiency."
                 ></FeatureCard>
               </div>
             </div>
@@ -546,7 +548,7 @@ const Home = (props) => {
         <div className="home-footer">
           <footer className="footerContainer home-footer1">
             <div className="home-container31">
-              <span className="logo">QUICKDECIDE</span>
+              <span className="logo">Stock.AI</span>
               <nav className="home-nav1">
                 <span className="bodySmall">Home</span>
                 <span className="home-nav222 bodySmall">Market Trends</span>
